@@ -1,6 +1,6 @@
-num1 = input("Enter your first number:")
-num2 = input("Enter your second number:")
-operation = input("Choose the operation (+, -, *, /):")
+num1 =int(input("Enter your first number:"))
+num2 =int(input("Enter your second number:"))
+operation =input("Choose the operation (+, -, *, /):")
 match operation : 
     case "+":
         result = num1 + num2 
