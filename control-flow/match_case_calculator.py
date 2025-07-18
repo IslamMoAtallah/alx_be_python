@@ -1,6 +1,6 @@
-num1 = int(input("Enter your first number: "))
+num1 = int(input("Enter the first number: "))
 
-num2 = int(input("Enter your second number: "))
+num2 = int(input("Enter the second number: "))
 
 operation = input("Choose the operation (+, -, *, /): ")
 
