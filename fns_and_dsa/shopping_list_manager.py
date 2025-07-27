@@ -5,13 +5,13 @@ def display_menu():
     print("3. View List")
     print("4. Exit")
 def add_item(shopping_list):
-    item=input("Enter the item to add : ").strip()
+    item=input("Enter the item to add: ")
     if item:
         shopping_list.append(item)
     else:
         print("Invalid item. please try again.")
 def remove_item(shopping_list):
-    item=input("Enter item to remove : ").strip()
+    item=input("Enter the item to remove: ")
     if item in shopping_list:
         shopping_list.remove(item)
         print(f"{item} has been removed from the shopping ")
