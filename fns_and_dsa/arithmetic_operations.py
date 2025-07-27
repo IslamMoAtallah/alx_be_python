@@ -1,4 +1,4 @@
-def perform_operation(num1, num2, operation ):
+def perform_operation(*num1, *num2, *operation):
     if operation == "add":
         return num1 + num2
     elif operation == "substract":
@@ -11,7 +11,6 @@ def perform_operation(num1, num2, operation ):
         return num1/num2
     else :
         return "Error: unsupported opertation"
-print(perform_operation(5, 2, "add"))
 
 
 
